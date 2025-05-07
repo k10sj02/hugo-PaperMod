@@ -19,15 +19,12 @@
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
-</footer>
-{{- end }}
 
-{{- if (not site.Params.disableScrollToTop) }}
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
+    <!-- ✅ Your custom message goes right here -->
+    <p style="font-size: 0.9em; color: #666; margin-top: 1em;">
+        Some content on this site has been created or refined using AI tools like ChatGPT. Learn more on the <a href="/about/">About page</a>.
+    </p>
+</footer>
 {{- end }}
 
 {{- partial "extend_footer.html" . }}
